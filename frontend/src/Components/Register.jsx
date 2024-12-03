@@ -48,7 +48,7 @@ function Register() {
       console.error('Error during registration:', error);
       setMessage('Server error. Please try again later.');
     }
-  };
+ };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-indigo-600">
@@ -76,7 +76,7 @@ function Register() {
               name="email"
               placeholder="Email"
               value={formData.email}
-              onChange={handleChange}
+              onChange={handleChange}x
               className="pl-10 p-3 w-full border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400"
             />
           </div>
