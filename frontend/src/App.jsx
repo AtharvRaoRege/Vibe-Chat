@@ -6,7 +6,7 @@ import Register from './components/Register'
 const App = () => {
   return (
     <div>
-      <LoginPage/>
+      <Register/>
     </div>
   )
 }
