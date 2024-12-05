@@ -1,8 +1,12 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import LoginPage from './Components/Login'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <LoginPage/>
+    </div>
   )
 }
 
