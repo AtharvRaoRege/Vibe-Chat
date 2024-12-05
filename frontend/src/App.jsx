@@ -1,11 +1,11 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import LoginPage from './Components/Login'
+import {LoginPage,Register} from './components/Login'
 
 const App = () => {
   return (
     <div>
-      <LoginPage/>
+      <Register/>
     </div>
   )
 }

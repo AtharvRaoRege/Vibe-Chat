@@ -3,7 +3,7 @@ import React from 'react'
 const Register = () => {
   return (
     <>
-      <form action="/register" method="POST">
+      <form>
         {/* <!-- Full Name --> */}
         <div class="mb-4">
           <label for="name" class="block text-gray-700 font-medium">Full Name</label>
