@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import LoginPage from './Components/Login'
+import LoginPage from './components/Login'
 
 const App = () => {
   return (
